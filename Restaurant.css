@@ -1,0 +1,38 @@
+.tabGrid {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                    /* enable flex items to wrap */ 
+  width: 60%;  
+}
+
+.tab{
+  flex: 0 0 15%;                       /* don't grow, don't shrink, width */
+  height: 40px;
+  background-color: #458;
+  text-align: center;  
+  line-height: 50px;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 2px solid black;
+  margin-top: -39px;
+  z-index: 1001;
+  
+  /*border: 1px solid black;  */
+}
+
+#info{
+	flex: 0 0 100%;
+	border: 2px solid black;
+	height: 25em;	
+	 border-radius: 0px 0px 10px 10px;
+}
+
+.active{
+	border: 2px solid black;
+	border-bottom: 0px;	
+}
+#pic{
+	border-radius: 10px 10px 0px 0px;
+	margin-bottom: -7px;
+	height: 250px;
+	width: 857px;
+	z-index: 1;
+}
